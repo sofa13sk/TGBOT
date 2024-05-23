@@ -17,11 +17,11 @@ async def start_cmd(msg: types.Message):
 
 @dp.message_handler(text="Уголовное право")
 async def help_cmd(msg: types.Message):
-    await msg.answer(text="Услышили вас, когда вам будет удобно придти?", reply_markup=kb1_calendar)
+    await msg.answer(text="Услышали вас, когда вам будет удобно прийти?", reply_markup=kb1_calendar)
 
 @dp.message_handler(text="Гражданское право")
 async def help_cmd(msg: types.Message):
-    await msg.answer(text="Услышили вас, когда вам будет удобно придти?", reply_markup=kb_calendar)
+    await msg.answer(text="Услышали вас, когда вам будет удобно прийти?", reply_markup=kb_calendar)
 
 @dp.message_handler(text="Развод и раздел имущества")
 async def help1_cmd(msg: types.Message):
